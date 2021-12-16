@@ -32,6 +32,8 @@ foreach ($result as $record) {
       <td data-label='分類'>{$record["option_category"]}</td>
       <td data-label='数量'>{$record["count"]}</td>
       <td data-label='期限'>{$record["deadline"]}</td>
+      <td data-label='メモ'>{$record["memo"]}</td>
+      <td data-label='画像'><img src='{$record["image"]}'style='width:50%;'></td>
     </tr>
   ";
 }
@@ -64,6 +66,8 @@ foreach ($result as $record) {
         <th>分類</th>
         <th>数量</th>
         <th>消費期限</th>
+        <th>メモ</th>
+        <th>画像</th>
       </tr>
     </thead>
     <tbody>

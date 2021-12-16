@@ -34,6 +34,7 @@ foreach ($result as $record) {
       <td data-label='期限'>{$record["deadline"]}</td>
       <td data-label='場所'>{$record["place_name"]}</td>
       <td data-label='メモ'>{$record["memo"]}</td>
+      <td data-label='画像'><img src='{$record["image"]}'style='width:50%;'></td>
       <td data-label='取得'><a href='toget_item_update.php?id={$record["id"]}'>もらう</a></td>
     </tr>
   ";
@@ -69,6 +70,7 @@ foreach ($result as $record) {
         <th>消費期限</th>
         <th>保存場所</th>
         <th>メモ</th>
+        <th>画像</th>
         <th>もらう</th>
       </tr>
     </thead>
