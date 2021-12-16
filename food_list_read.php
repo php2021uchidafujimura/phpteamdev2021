@@ -86,6 +86,9 @@ foreach ($result as $record) {
       <a href="sharebox_list_read.php" class="page-link"><i class="fas fa-people-arrows"></i>公開</a>
     </div>
   </div>
+  <div>
+    <a href="ajax_search_option.html" class="page-link"><i class="fas fa-search"></i>検索</a>
+  </div>
   <h3>マイページ</h3>
   <div>
     <table class="food-table">
